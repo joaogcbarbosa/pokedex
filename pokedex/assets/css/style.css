@@ -144,3 +144,22 @@ h1 {
     background-color: #967aca;
     color: #ffffff;
 }
+
+@media (min-width: 500px) {
+    #pokemonList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1000px) {
+    #pokemonList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1500px) {
+    #pokemonList {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
